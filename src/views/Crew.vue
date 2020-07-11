@@ -14,7 +14,12 @@
         <div>
           <div class="member">
             <div class="member-image">
-              <img :src="require(`@/assets/team images/team-members/${captain.image}`)" alt />
+              <img
+                :src="
+                  require(`@/assets/team images/team-members/${captain.image}`)
+                "
+                alt
+              />
             </div>
 
             <div>
@@ -24,9 +29,12 @@
               </div>
             </div>
             <div class="linksofmembers">
-              <div v-for="(link,index) in captain.links" :key="index">
+              <div v-for="(link, index) in captain.links" :key="index">
                 <a :href="link.link">
-                  <img v-lazy="require(`@/assets/icons/team_icons/${link.image}`)" :alt="link.name" />
+                  <img
+                    v-lazy="require(`@/assets/icons/team_icons/${link.image}`)"
+                    :alt="link.name"
+                  />
                 </a>
               </div>
             </div>
@@ -38,7 +46,7 @@
         <div class="department-heading">
           <div>
             <div class="department-heading-box">
-              <h1>{{ department.departmentName}}</h1>
+              <h1>{{ department.departmentName }}</h1>
             </div>
           </div>
         </div>
@@ -48,7 +56,9 @@
             <div class="member">
               <div class="member-image">
                 <img
-                  v-lazy="require(`@/assets/team images/team-members/${department.lead.image}`)"
+                  v-lazy="
+                    require(`@/assets/team images/team-members/${department.lead.image}`)
+                  "
                   alt
                 />
               </div>
@@ -60,11 +70,19 @@
                 </div>
               </div>
               <div class="linksofmembers">
-                <div v-for="(link,index) in department.lead.links" :key="index">
-                <a :href="link.link">
-                  <img v-lazy="require(`@/assets/icons/team_icons/${link.image}`)" :alt="link.name" />
-                </a>
-              </div>
+                <div
+                  v-for="(link, index) in department.lead.links"
+                  :key="index"
+                >
+                  <a :href="link.link">
+                    <img
+                      v-lazy="
+                        require(`@/assets/icons/team_icons/${link.image}`)
+                      "
+                      :alt="link.name"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -74,7 +92,12 @@
           <div v-for="member in department.members" :key="member.name">
             <div class="member">
               <div class="member-image">
-                <img v-lazy="require(`@/assets/team images/team-members/${member.image}`)" alt />
+                <img
+                  v-lazy="
+                    require(`@/assets/team images/team-members/${member.image}`)
+                  "
+                  alt
+                />
               </div>
 
               <div class="details">
@@ -83,11 +106,16 @@
                   <h4>{{ member.name }}</h4>
                 </div>
                 <div class="linksofmembers">
-                  <div v-for="(link,index) in member.links" :key="index">
-                <a :href="link.link">
-                  <img v-lazy="require(`@/assets/icons/team_icons/${link.image}`)" :alt="link.name" />
-                </a>
-              </div>
+                  <div v-for="(link, index) in member.links" :key="index">
+                    <a :href="link.link">
+                      <img
+                        v-lazy="
+                          require(`@/assets/icons/team_icons/${link.image}`)
+                        "
+                        :alt="link.name"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -106,9 +134,13 @@ export default {
         position: "Captain",
         name: "Sarif Anwar",
         links: [
-          { name: "insta", image: "insta.png", link: "https://instagram.com/sarif_zfr?igshid=l1i3eze28tbo" },
+          {
+            name: "insta",
+            image: "insta.png",
+            link: "https://instagram.com/sarif_zfr?igshid=l1i3eze28tbo"
+          },
           { name: "email", image: "email.png", link: "#" },
-          { name: "linkedin", image: "linkedin.png", link: "#" }
+          { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/sarif-anwar" }
         ]
       },
       departments: [
@@ -119,9 +151,13 @@ export default {
             position: "Vehicle Dynamics Lead",
             image: "IMG_20191125_201318.jpg",
             links: [
-              { name: "insta", image: "insta.png", link: "https://instagram.com/sartashtic?igshid=p4v0i9b5oxfx" },
+              {
+                name: "insta",
+                image: "insta.png",
+                link: "https://instagram.com/sartashtic?igshid=p4v0i9b5oxfx"
+              },
               { name: "email", image: "email.png", link: "#" },
-              { name: "linkedin", image: "linkedin.png", link: "#" }
+              { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohammad-tashif-431697143" }
             ]
           },
           members: [
@@ -130,9 +166,13 @@ export default {
               position: "Steering & Wheel Assembly",
               image: "IMG-20191124-WA0025.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/sarif_zfr?igshid=l1i3eze28tbo" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://instagram.com/sarif_zfr?igshid=l1i3eze28tbo"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/sarif-anwar" }
               ]
             },
             {
@@ -140,9 +180,13 @@ export default {
               position: "Wheel Assembly",
               image: "rehan.jpeg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/_abadrehan?igshid=kynl9e6k5x9v" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://instagram.com/_abadrehan?igshid=kynl9e6k5x9v"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/rehan-abad-siddiqui-623868176" }
               ]
             },
             {
@@ -150,9 +194,14 @@ export default {
               position: "Suspension",
               image: "IMG_20191125_200830.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/invincibleface?igshid=1xwuvvbehip8d" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/invincibleface?igshid=1xwuvvbehip8d"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/yogesh-kumar-433414172" }
               ]
             },
             {
@@ -160,29 +209,38 @@ export default {
               position: "Steering",
               image: "IMG_20191126_235448.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/ham_mad_hu_?igshid=38jhudd0b7xk" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://instagram.com/ham_mad_hu_?igshid=38jhudd0b7xk"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/hammad-qamar-96602016b" }
               ]
             },
-            {
-              name: "Aftaab Alam",
-              position: "Suspension",
-              image: "IMG_20191125_200951.jpg",
-              links: [
-                { name: "insta", image: "insta.png", link: "#" },
-                { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
-              ]
-            },
+            // {
+            //   name: "Aftaab Alam",
+            //   position: "Suspension",
+            //   image: "IMG_20191125_200951.jpg",
+            //   links: [
+            //     { name: "insta", image: "insta.png", link: "#" },
+            //     { name: "email", image: "email.png", link: "#" },
+            //     { name: "linkedin", image: "linkedin.png", link: "#" }
+            //   ]
+            // },
             {
               name: "Burhan Shamsi",
               position: "Brakes",
               image: "IMG_20191130_011434.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/__whateverittakes_?igshid=38uj0roq4jfo" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/__whateverittakes_?igshid=38uj0roq4jfo"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/md-burhan-shamsi-a182b6171" }
               ]
             },
 
@@ -191,9 +249,14 @@ export default {
               position: "Brakes",
               image: "IMG_20191130_010441.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/waris______khan?igshid=12n9s65qrt0pd" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/waris______khan?igshid=12n9s65qrt0pd"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/waris-khan-a40110134/" }
               ]
             }
           ]
@@ -205,10 +268,14 @@ export default {
             position: "Chassis Lead",
             image: "IMG_20191125_201205.jpg",
             links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx" },
-                { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
-              ]
+              {
+                name: "insta",
+                image: "insta.png",
+                link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx"
+              },
+              { name: "email", image: "email.png", link: "#" },
+              { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/qazi-t-297392146" }
+            ]
           },
           members: [
             {
@@ -216,9 +283,14 @@ export default {
               position: "Team member",
               image: "IMG_20191125_201100.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/mohammed_tazeem?igshid=167to096kjg8u" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/mohammed_tazeem?igshid=167to096kjg8u"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohammed-tazeem-34b462189" }
               ]
             },
             {
@@ -226,21 +298,25 @@ export default {
               position: "Team member",
               image: "IMG_20191130_012057.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/md_aligauhar?igshid=pdig82i4q4ez" },
-                { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
-              ]
-            },
-            {
-              name: "Varun Bharadwaz",
-              position: "Team member",
-              image: "IMG-20191103-WA0007.jpg",
-              links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://instagram.com/md_aligauhar?igshid=pdig82i4q4ez"
+                },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
             }
+            // {
+            //   name: "Varun Bharadwaz",
+            //   position: "Team member",
+            //   image: "IMG-20191103-WA0007.jpg",
+            //   links: [
+            //     { name: "insta", image: "insta.png", link: "#" },
+            //     { name: "email", image: "email.png", link: "#" },
+            //     { name: "linkedin", image: "linkedin.png", link: "#" }
+            //   ]
+            // }
           ]
         },
         {
@@ -250,10 +326,14 @@ export default {
             position: "Powertrain Lead",
             image: "IMG_20191125_200516.jpg",
             links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/aziz.suboor?igshid=u6gbqw4qva5j" },
-                { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
-              ]
+              {
+                name: "insta",
+                image: "insta.png",
+                link: "https://instagram.com/aziz.suboor?igshid=u6gbqw4qva5j"
+              },
+              { name: "email", image: "email.png", link: "#" },
+              { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohd-suboor-18b594171" }
+            ]
           },
           members: [
             {
@@ -261,7 +341,11 @@ export default {
               position: "Powertrain team member",
               image: "IMG_20191126_235547.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/aatif_qazi?igshid=4l70lh37fh7m" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://instagram.com/aatif_qazi?igshid=4l70lh37fh7m"
+                },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -271,9 +355,13 @@ export default {
               position: "Powertrain team member",
               image: "IMG_20191125_195909.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/swara_ch_?igshid=1vwg120vuqsxf" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://instagram.com/swara_ch_?igshid=1vwg120vuqsxf"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/swarnima-chaudhary-54ab87189" }
               ]
             }
           ]
@@ -285,10 +373,10 @@ export default {
             position: "Electronics Lead",
             image: "IMG_20191125_200423.jpg",
             links: [
-                { name: "insta", image: "insta.png", link: "#" },
-                { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
-              ]
+              { name: "insta", image: "insta.png", link: "#" },
+              { name: "email", image: "email.png", link: "#" },
+              { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/0mngl" }
+            ]
           },
           members: [
             {
@@ -296,9 +384,14 @@ export default {
               position: "Team Member",
               image: "IMG_20191125_200003.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/hinatomar868?igshid=1szlw7xxvvsrd" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/hinatomar868?igshid=1szlw7xxvvsrd"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/hinatomar22" }
               ]
             },
             {
@@ -306,9 +399,14 @@ export default {
               position: "Team Member",
               image: "IMG_20191125_200046.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/kcunalsharma?igshid=1ene441cgnfx8" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/kcunalsharma?igshid=1ene441cgnfx8"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/kunal-sharma-b757021a1" }
               ]
             }
           ]
@@ -320,10 +418,14 @@ export default {
             position: "Team Manager",
             image: "IMG_20191125_201205.jpg",
             links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx" },
-                { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
-              ]
+              {
+                name: "insta",
+                image: "insta.png",
+                link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx"
+              },
+              { name: "email", image: "email.png", link: "#" },
+              { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/qazi-t-297392146" }
+            ]
           },
           members: [
             {
@@ -331,7 +433,12 @@ export default {
               position: "Team Member",
               image: "IMG_20191130_011434.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/__whateverittakes_?igshid=38uj0roq4jfo" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/__whateverittakes_?igshid=38uj0roq4jfo"
+                },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -341,9 +448,13 @@ export default {
               position: "Team Member",
               image: "shubham.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/mech_hustle?igshid=1h1fw0zzq35l5" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://instagram.com/mech_hustle?igshid=1h1fw0zzq35l5"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/shubham-jain-891726144" }
               ]
             },
             {
@@ -351,9 +462,14 @@ export default {
               position: "Team Member",
               image: "IMG-20191126-WA0019.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/meesumbilgrami?igshid=p2bx6sq11bcf" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/meesumbilgrami?igshid=p2bx6sq11bcf"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/meesum-raza-zaidi-4375ba195" }
               ]
             },
             {
@@ -361,21 +477,26 @@ export default {
               position: "Team Member",
               image: "IMG_20191127_000107.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "https://instagram.com/arsalan_sartaj?igshid=jnc8hpmmy9ds" },
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/arsalan_sartaj?igshid=jnc8hpmmy9ds"
+                },
                 { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
-              ]
-            },
-            {
-              name: "Vinayak Varshney",
-              position: "Team Member",
-              image: "IMG_20191126_235630.jpg",
-              links: [
-                { name: "insta", image: "insta.png", link: "#" },
-                { name: "email", image: "email.png", link: "#" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/arsalan-sartaj-b1a659191" }
               ]
             }
+            // {
+            //   name: "Vinayak Varshney",
+            //   position: "Team Member",
+            //   image: "IMG_20191126_235630.jpg",
+            //   links: [
+            //     { name: "insta", image: "insta.png", link: "#" },
+            //     { name: "email", image: "email.png", link: "#" },
+            //     { name: "linkedin", image: "linkedin.png", link: "#" }
+            //   ]
+            // }
           ]
         }
       ]
@@ -540,7 +661,7 @@ main > div {
   background: linear-gradient(45deg, #1f171c, rgb(87, 40, 40), #1f171c);
 }
 @media screen and (max-width: 991px) {
-  main{
+  main {
     background-image: url("../assets/images/background/carback.r.jpg");
   }
   #zfr5 {

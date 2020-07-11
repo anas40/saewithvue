@@ -16,18 +16,17 @@ export default {
   },
   mounted() {
     let prevScrollpos = window.pageYOffset;
-    window.addEventListener("scroll",() => {
+    window.addEventListener("scroll", () => {
       let currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos - 1 || currentScrollPos<100) {
+      if (prevScrollpos > currentScrollPos - 1 || currentScrollPos < 100) {
         document.getElementById("navbar").style.top = "0";
       } else {
         document.getElementById("navbar").style.top = "-80px";
       }
-      if(window.scrollY>68){
-        document.querySelector('nav').classList.add('transparentNav')
-      }
-      else{
-        document.querySelector('nav').classList.remove('transparentNav')
+      if (window.scrollY > 68) {
+        document.querySelector("nav").classList.add("transparentNav");
+      } else {
+        document.querySelector("nav").classList.remove("transparentNav");
       }
       prevScrollpos = currentScrollPos;
     });

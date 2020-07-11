@@ -7,23 +7,52 @@
       <form action="https://formspree.io/mvogvvgj" method="POST">
         <div>
           <label for="message">Query :</label>
-          <textarea name="message" id="message" placeholder="Message" minlength="1" rows="4" oninvalid="this.setCustomValidity('Please Enter Your question.')"
- oninput="setCustomValidity('')" required></textarea>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message"
+            minlength="1"
+            rows="4"
+            oninvalid="this.setCustomValidity('Please Enter Your question.')"
+            oninput="setCustomValidity('')"
+            required
+          ></textarea>
         </div>
         <div>
           <label for="name">Name :</label>
-          <input type="text" id="name" name="name" minlength="1" placeholder="Your name" oninvalid="this.setCustomValidity('Please Enter Your Name')"
- oninput="setCustomValidity('')" required />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            minlength="1"
+            placeholder="Your name"
+            oninvalid="this.setCustomValidity('Please Enter Your Name')"
+            oninput="setCustomValidity('')"
+            required
+          />
         </div>
         <div>
           <label for="email">Email :</label>
-          <input type="email" id="email"  name="email" placeholder="Your Email" oninvalid="this.setCustomValidity('Please provide valid email')"
- oninput="setCustomValidity('')" required/>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            oninvalid="this.setCustomValidity('Please provide valid email')"
+            oninput="setCustomValidity('')"
+            required
+          />
         </div>
         <div id="button-setter">
           <button type="submit">
             Send Query
-            <img :src="require('@/assets/icons/home_icons/chevron-solid-white.svg')" class="chevron-solid" alt="submit the form"/>
+            <img
+              :src="
+                require('@/assets/icons/home_icons/chevron-solid-white.svg')
+              "
+              class="chevron-solid"
+              alt="submit the form"
+            />
           </button>
         </div>
       </form>
@@ -36,16 +65,16 @@ export default {};
 </script>
 
 <style scoped>
-form button{
-    background-color:#414141;
-    color: white;
-    padding: 12px;
-    border: none;
-    outline: none;
+form button {
+  background-color: #414141;
+  color: white;
+  padding: 12px;
+  border: none;
+  outline: none;
 }
-form button:hover{
-    cursor:pointer;
-    background-color:#2c2c2c;
+form button:hover {
+  cursor: pointer;
+  background-color: #2c2c2c;
 }
 .some-headings {
   text-align: center;
@@ -72,7 +101,7 @@ form button:hover{
 }
 #form-wrapper:hover #query-line {
   transform: translateY(-10px) scale(1.4);
-  transition: .3s transform linear;
+  transition: 0.3s transform linear;
 }
 
 #form-container {
@@ -95,7 +124,7 @@ form {
 form > div {
   padding: 5% 0;
 }
-label{
+label {
   font-weight: 600;
 }
 form input {
@@ -106,5 +135,4 @@ textarea {
   width: 100%;
   padding: 5%;
 }
-
 </style>

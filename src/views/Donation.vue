@@ -7,27 +7,27 @@
       <div class="donation-body">
         <section id="description">
           <article>
-            Team ZHCET formula racing strives hard & passionately to bring up the
-            talent from Aligarh Muslim University to give an exposure on Indian &
-            global platforms. We encourage young talent to be a part of us and to
-            provide them an adequate environment so that they can perform some
-            sophisticated work in the field of motorsports, automobiles and
-            Management sectors.
+            Team ZHCET formula racing strives hard & passionately to bring up
+            the talent from Aligarh Muslim University to give an exposure on
+            Indian & global platforms. We encourage young talent to be a part of
+            us and to provide them an adequate environment so that they can
+            perform some sophisticated work in the field of motorsports,
+            automobiles and Management sectors.
             <p>
               From when we were just a few students to this time when we are
               preparing for our 5th version ZFR 5.0, a lot of changes have taken
-              place .We work hard, sometimes we run, sometimes we walk, sometimes
-              we crawl but the passion for automotive engineering keeps firing in
-              our hearts .
+              place .We work hard, sometimes we run, sometimes we walk,
+              sometimes we crawl but the passion for automotive engineering
+              keeps firing in our hearts .
             </p>
             <p>
               We could not have been here unless people like you did not support
               us. By considering the immensity of event and availability of
               resources, we as a team of aspiring & enthusiast automotive
-              engineers looks upon corporate & private firms who sponsor us & let
-              us help to ignite our passion. As someone said “Rome was not built
-              in a day”, so we firmly believe that we can achieve it but what we
-              need is your support & your trust on us.
+              engineers looks upon corporate & private firms who sponsor us &
+              let us help to ignite our passion. As someone said “Rome was not
+              built in a day”, so we firmly believe that we can achieve it but
+              what we need is your support & your trust on us.
             </p>
             <p>
               So that we can create a new benchmark for upcoming automotive
@@ -39,9 +39,18 @@
           <h2>Details</h2>
           <ul>
             <li v-for="prop in account" :key="prop.name">
-              <tr>{{ prop.name }} :</tr>
+              <tr>
+                {{
+                  prop.name
+                }}
+                :
+              </tr>
               <div class="detailsInline">
-                <tr class="account-details">{{ prop.value }}</tr>
+                <tr class="account-details">
+                  {{
+                    prop.value
+                  }}
+                </tr>
                 <button v-clipboard="prop.value">
                   <img
                     title="click to copy"
@@ -87,7 +96,7 @@ button {
   cursor: pointer;
 }
 
-button::after{
+button::after {
   content: "Copy Here";
   line-height: 1.2;
   font-size: 0.6rem;
@@ -99,15 +108,15 @@ button::after{
   bottom: 5px;
   padding-left: 5px;
 }
-.detailsInline:hover button{
-   background: #1e928c; 
+.detailsInline:hover button {
+  background: #1e928c;
 }
 
-.detailsInline:hover .copyIcon{
+.detailsInline:hover .copyIcon {
   /* transition: margin-top 0.3s linear; */
   margin-top: -15px;
 }
-.detailsInline:hover button::after{
+.detailsInline:hover button::after {
   transition: opacity 0.3s linear;
   display: inline;
   opacity: 1;
@@ -133,7 +142,7 @@ li {
   display: inline;
   cursor: pointer;
   margin: 12px;
-  margin-top:12px;
+  margin-top: 12px;
   transition: margin-top 0.3s linear;
 }
 
@@ -174,7 +183,7 @@ li {
 }
 #amu-icon img {
   height: 30%;
-  padding:12px;
+  padding: 12px;
   max-height: 200px;
   color: #ffffd0;
   margin: auto;
@@ -200,12 +209,12 @@ li {
   li {
     padding-left: 0;
   }
-  .detailsInline:hover .copyIcon{
-  /* transition: margin-top 0.3s linear; */
-  position: relative;
-  top: 5px;
-  padding: 6px;
-}
+  .detailsInline:hover .copyIcon {
+    /* transition: margin-top 0.3s linear; */
+    position: relative;
+    top: 5px;
+    padding: 6px;
+  }
   .donation-body > * {
     flex-basis: 70% !important;
     margin: 40px 0;

@@ -5,7 +5,10 @@
     </section>
     <section id="container">
       <div class="imageBox" v-for="item in 16" :key="item">
-        <img v-lazy="require(`@/assets/logos/${item}.png`)" alt="Sponsor image" />
+        <img
+          v-lazy="require(`@/assets/logos/${item}.png`)"
+          alt="Sponsor image"
+        />
       </div>
     </section>
   </main>
@@ -40,13 +43,13 @@ main {
   width: 150px;
   border: 1px solid black;
 }
-@media screen and (max-width:768px){
-  #container{
+@media screen and (max-width: 768px) {
+  #container {
     grid-template-columns: 25% 25%;
   }
 }
-@media screen and (max-width:425px){
-  #container{
+@media screen and (max-width: 425px) {
+  #container {
     grid-template-columns: 20%;
   }
 }

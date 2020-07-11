@@ -38,9 +38,13 @@
 
           <ul class="list-unstyled list-inline">
             <li class="list-inline-item" v-for="car in cars" :key="car.name">
-              <router-link class="linkCars" :to="{ name:'CarModel',params:{ carName:car.name }} ">{{ car.name }}</router-link> |
+              <router-link
+                class="linkCars"
+                :to="{ name: 'CarModel', params: { carName: car.name } }"
+                >{{ car.name }}</router-link
+              >
+              |
             </li>
-
           </ul>
         </div>
         <!-- Grid column -->
@@ -56,7 +60,11 @@
           <h5 class="mb-1">Support Us</h5>
         </li>
         <li class="list-inline-item">
-          <router-link :to="{name:'Donation'}" class="btn btn-danger btn-rounded">Donate here!</router-link>
+          <router-link
+            :to="{ name: 'Donation' }"
+            class="btn btn-danger btn-rounded"
+            >Donate here!</router-link
+          >
         </li>
       </ul>
       <!-- Call to action -->
@@ -65,12 +73,16 @@
 
       <!-- Social buttons -->
       <ul class="list-unstyled list-inline text-center" id="social-buttons">
-        <li class="list-inline-item" v-for="(item,index) in Social" :key="index">
-          <a
-            :href="item.link"
-            target="_blank"
-            class="btn-floating btn-fb mx-1"
-          ><img :src="require(`@/assets/icons/footer_icons/${item.image}`)" alt="fb link" /></a>
+        <li
+          class="list-inline-item"
+          v-for="(item, index) in Social"
+          :key="index"
+        >
+          <a :href="item.link" target="_blank" class="btn-floating btn-fb mx-1"
+            ><img
+              :src="require(`@/assets/icons/footer_icons/${item.image}`)"
+              alt="fb link"
+          /></a>
         </li>
       </ul>
       <!-- Social buttons -->
@@ -78,12 +90,15 @@
       <!-- developer -->
       <div class="text-center py-3" id="developer">
         Developed by
-        <a href="https://www.linkedin.com/in/anasmohd/" target="_blank">Mohd Anas</a>
+        <a href="https://www.linkedin.com/in/anasmohd/" target="_blank"
+          >Mohd Anas</a
+        >
         &
         <a
           href="https://www.linkedin.com/in/gauhar-ayub-khan-8202b516b/"
           target="_blank"
-        >Gauhar Ayub Khan</a>
+          >Gauhar Ayub Khan</a
+        >
       </div>
       <!-- developer -->
     </div>
@@ -117,8 +132,7 @@ export default {
         {
           name: "ZFR 4.0"
         },
-        { name: "ZFR 3.0"
-        },
+        { name: "ZFR 3.0" },
         {
           name: "ZFR 2.0"
         },
@@ -126,22 +140,24 @@ export default {
           name: "ZFR 1.0"
         }
       ],
-      Social:[
-          {
-              link:"https://www.facebook.com/ZHCETFormulaRacing/",
-              image:"fb.png"
-          },
-          {
-              link:"https://twitter.com/zfr_amu?lang=en",
-              image:"twitter.png"
-          },
-          {
-              link:"https://www.linkedin.com/company/zhcet-formula-racing-zfr/about/",
-              image:"linkedin.png"
-          },{
-              link:"https://www.instagram.com/zhcet_formula_racing/?hl=en",
-              image:"insta.png"
-          }
+      Social: [
+        {
+          link: "https://www.facebook.com/ZHCETFormulaRacing/",
+          image: "fb.png"
+        },
+        {
+          link: "https://twitter.com/zfr_amu?lang=en",
+          image: "twitter.png"
+        },
+        {
+          link:
+            "https://www.linkedin.com/company/zhcet-formula-racing-zfr/about/",
+          image: "linkedin.png"
+        },
+        {
+          link: "https://www.instagram.com/zhcet_formula_racing/?hl=en",
+          image: "insta.png"
+        }
       ]
     };
   }

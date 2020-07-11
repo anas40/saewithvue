@@ -1,10 +1,11 @@
 <template>
   <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="container container-nav" id="contain">
-      <router-link class="navbar-brand" :to="{ name: 'Home'}">
+      <router-link class="navbar-brand" :to="{ name: 'Home' }">
         <img src="../assets/icons/nav_icons/logo.png" alt="logo" id="logo" />
       </router-link>
-      <button @click="toggleHamburger"
+      <button
+        @click="toggleHamburger"
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -13,7 +14,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <div id="nav-icon2" :class="{open:!openClass}" >
+        <div id="nav-icon2" :class="{ open: !openClass }">
           <span></span>
           <span></span>
           <span></span>
@@ -25,8 +26,11 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav" @click="closeTheNav">
           <li class="nav-item" v-for="item in navList" :key="item.name">
-            <router-link class="nav-link" :to="{ name:item.link}">
-              <img :src="require(`@/assets/icons/nav_icons/${item.icon}`)" class="nav-icons" />
+            <router-link class="nav-link" :to="{ name: item.link }">
+              <img
+                :src="require(`@/assets/icons/nav_icons/${item.icon}`)"
+                class="nav-icons"
+              />
               {{ item.name }}
             </router-link>
           </li>
@@ -34,23 +38,35 @@
           <li class="nav-item dropdown" id="donation">
             <div
               class="nav-link dropdown-toggle"
-              :to="{ name:'Donation'}"
+              :to="{ name: 'Donation' }"
               id="navbarDropdownMenuLink"
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <img src="../assets/icons/nav_icons/rupee.svg" class="nav-icons" />
+              <img
+                src="../assets/icons/nav_icons/rupee.svg"
+                class="nav-icons"
+              />
               <span>S</span>upport
             </div>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <router-link class="dropdown-item" :to="{ name:'Donation' }">Support Us</router-link>
-              <router-link class="dropdown-item" :to="{ name:'Sponsors' }">Our Sponsors</router-link>
+              <router-link class="dropdown-item" :to="{ name: 'Donation' }"
+                >Support Us</router-link
+              >
+              <router-link class="dropdown-item" :to="{ name: 'Sponsors' }"
+                >Our Sponsors</router-link
+              >
             </div>
           </li>
         </ul>
       </div>
-      <a class="navbar-brand" id="amu-logo" href="https://www.amu.ac.in" target="_blank">
+      <a
+        class="navbar-brand"
+        id="amu-logo"
+        href="https://www.amu.ac.in"
+        target="_blank"
+      >
         <div>
           <img src="../assets/icons/nav_icons/amulogo.png" alt />
         </div>
@@ -93,15 +109,14 @@ export default {
     toggleHamburger() {
       this.openClass = !this.openClass;
     },
-    closeTheNav(){
-      document.getElementById("nav-icon2").click()
+    closeTheNav() {
+      document.getElementById("nav-icon2").click();
     }
   }
 };
 </script>
 
 <style scoped>
-
 #nav-icon2 {
   width: 40px;
   height: 45px;

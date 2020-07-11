@@ -13,14 +13,20 @@
       <!-- <div class="container"> -->
       <section id="cars-sae">
         <div class="row">
-          <div class="col-md-6 col-sm-12" v-for="car in cars" :key="car.id" >
+          <div class="col-md-6 col-sm-12" v-for="car in cars" :key="car.id">
             <div class="image-box">
-              <router-link :to="{ name:'CarModel', params:{ carName:car.name }}">
-                <img v-lazy="require(`@/assets/images/car_images/${car.image}`)" />
+              <router-link
+                :to="{ name: 'CarModel', params: { carName: car.name } }"
+              >
+                <img
+                  v-lazy="require(`@/assets/images/car_images/${car.image}`)"
+                />
               </router-link>
             </div>
             <div class="name name-center">
-              <router-link :to="{ name:'CarModel',params:{ carName:car.name }}">
+              <router-link
+                :to="{ name: 'CarModel', params: { carName: car.name } }"
+              >
                 <h2>{{ car.name }}</h2>
               </router-link>
             </div>
@@ -28,7 +34,11 @@
           <div class="col-md-6 col-sm-12">
             <div class="image-box">
               <div>
-                <img v-lazy="require(`@/assets/images/car_images/${upcomingCar.image}`)" />
+                <img
+                  v-lazy="
+                    require(`@/assets/images/car_images/${upcomingCar.image}`)
+                  "
+                />
               </div>
             </div>
             <div class="name name-center">
@@ -44,7 +54,11 @@
       <div class="container">
         <h2 class="text-block">Gold Sponsors</h2>
         <div class="row sponsor">
-          <div class="col-md-6" v-for="(sponsor,index) in sponsors" :key="index">
+          <div
+            class="col-md-6"
+            v-for="(sponsor, index) in sponsors"
+            :key="index"
+          >
             <img v-lazy="sponsor" width="100%" height="100%" />
           </div>
         </div>
@@ -65,7 +79,7 @@ export default {
   mounted() {
     this.carAnimation();
     this.bodyHeight = document.getElementById("cars-index").clientHeight;
-    document.getElementById("path").style.height = this.bodyHeight
+    document.getElementById("path").style.height = this.bodyHeight;
     document.addEventListener("scroll", this.carAnimation);
   },
   beforeDestroy() {
@@ -92,11 +106,11 @@ export default {
   },
   data() {
     return {
-      distance:200,
-      bodyHeight:null,
-      pScrollpos:0,
+      distance: 200,
+      bodyHeight: null,
+      pScrollpos: 0,
       car: null,
-      screenSize:[screen.width>1023?true:false],
+      screenSize: [screen.width > 1023 ? true : false],
       cars: [
         {
           image: "zfr1.jpg",
@@ -129,12 +143,12 @@ export default {
           id: 5
         }
       ],
-      upcomingCar:{
-          image: "coming_soon.jpg",
-          link: "cars/zfr-5.0",
-          name: "ZFR 5.0",
-          id: 6
-        },
+      upcomingCar: {
+        image: "coming_soon.jpg",
+        link: "cars/zfr-5.0",
+        name: "ZFR 5.0",
+        id: 6
+      },
       sponsors: [
         "https://www.marshall.edu/it/files/mathworks-logo.jpg",
         "https://yt3.ggpht.com/a/AGF-l79atE0GzZ5jy-Fmio_r6gz6xdXY3N4NwPb8Og=s900-c-k-c0xffffffff-no-rj-mo",
@@ -161,7 +175,7 @@ main > div {
   text-align: center;
   background-color: black;
 }
-h2.text-block{
+h2.text-block {
   padding: 12px;
 }
 .text-block h1 {
@@ -198,7 +212,7 @@ h2.text-block{
   height: 50vh;
   padding: 2%;
 }
-.sponsor .col-md-6 img{
+.sponsor .col-md-6 img {
   box-shadow: 0 0 12px 0 black;
   /* transform: rotateY(80deg) rotateZ(-25deg) ; */
 }
@@ -211,8 +225,7 @@ h2.text-block{
   margin: auto;
   padding: 12px;
   margin-bottom: 5%;
-  width:50%;
-
+  width: 50%;
 }
 .name h1 {
   text-decoration: none;
@@ -224,7 +237,8 @@ h2.text-block{
   text-decoration: none;
   /* color: white; */
 }
-.name a h2,.name div h2 {
+.name a h2,
+.name div h2 {
   font-size: 2.2em;
   font-weight: bolder;
   color: #000;
@@ -290,8 +304,6 @@ tr:nth-child(even) {
   width: 55px;
 }
 
-
-
 @media (max-width: 500px) {
   .text-block h1 {
     font-size: 10vw;
@@ -299,10 +311,11 @@ tr:nth-child(even) {
   .spec img {
     width: 80%;
   }
-  #cars-sae .row{
-    margin:0;
+  #cars-sae .row {
+    margin: 0;
   }
-  #cars-sae .col-md-6 img,#cars-sae .col-md-6 .name-center{
+  #cars-sae .col-md-6 img,
+  #cars-sae .col-md-6 .name-center {
     width: 90% !important;
   }
 }
