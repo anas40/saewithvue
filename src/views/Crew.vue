@@ -202,10 +202,10 @@ export default {
           departmentName: "Chassis",
           lead: {
             name: "Qazi Mohammad Taha",
-            position: "chassis Lead",
+            position: "Chassis Lead",
             image: "IMG_20191125_201205.jpg",
             links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -216,7 +216,7 @@ export default {
               position: "Team member",
               image: "IMG_20191125_201100.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/mohammed_tazeem?igshid=167to096kjg8u" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -226,7 +226,7 @@ export default {
               position: "Team member",
               image: "IMG_20191130_012057.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/md_aligauhar?igshid=pdig82i4q4ez" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -250,7 +250,7 @@ export default {
             position: "Powertrain Lead",
             image: "IMG_20191125_200516.jpg",
             links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/aziz.suboor?igshid=u6gbqw4qva5j" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -261,7 +261,7 @@ export default {
               position: "Powertrain team member",
               image: "IMG_20191126_235547.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/aatif_qazi?igshid=4l70lh37fh7m" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -271,7 +271,7 @@ export default {
               position: "Powertrain team member",
               image: "IMG_20191125_195909.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/swara_ch_?igshid=1vwg120vuqsxf" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -296,7 +296,7 @@ export default {
               position: "Team Member",
               image: "IMG_20191125_200003.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/hinatomar868?igshid=1szlw7xxvvsrd" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -306,7 +306,7 @@ export default {
               position: "Team Member",
               image: "IMG_20191125_200046.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/kcunalsharma?igshid=1ene441cgnfx8" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -320,7 +320,7 @@ export default {
             position: "Team Manager",
             image: "IMG_20191125_201205.jpg",
             links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -341,7 +341,7 @@ export default {
               position: "Team Member",
               image: "shubham.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/mech_hustle?igshid=1h1fw0zzq35l5" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -351,7 +351,7 @@ export default {
               position: "Team Member",
               image: "IMG-20191126-WA0019.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/meesumbilgrami?igshid=p2bx6sq11bcf" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -361,7 +361,7 @@ export default {
               position: "Team Member",
               image: "IMG_20191127_000107.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/arsalan_sartaj?igshid=jnc8hpmmy9ds" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
