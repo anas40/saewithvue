@@ -106,7 +106,7 @@ export default {
         position: "Captain",
         name: "Sarif Anwar",
         links: [
-          { name: "insta", image: "insta.png", link: "#" },
+          { name: "insta", image: "insta.png", link: "https://instagram.com/sarif_zfr?igshid=l1i3eze28tbo" },
           { name: "email", image: "email.png", link: "#" },
           { name: "linkedin", image: "linkedin.png", link: "#" }
         ]
@@ -119,7 +119,7 @@ export default {
             position: "Vehicle Dynamics Lead",
             image: "IMG_20191125_201318.jpg",
             links: [
-              { name: "insta", image: "insta.png", link: "#" },
+              { name: "insta", image: "insta.png", link: "https://instagram.com/sartashtic?igshid=p4v0i9b5oxfx" },
               { name: "email", image: "email.png", link: "#" },
               { name: "linkedin", image: "linkedin.png", link: "#" }
             ]
@@ -130,7 +130,7 @@ export default {
               position: "Steering & Wheel Assembly",
               image: "IMG-20191124-WA0025.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/sarif_zfr?igshid=l1i3eze28tbo" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -140,7 +140,7 @@ export default {
               position: "Wheel Assembly",
               image: "rehan.jpeg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/_abadrehan?igshid=kynl9e6k5x9v" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -150,7 +150,7 @@ export default {
               position: "Suspension",
               image: "IMG_20191125_200830.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/invincibleface?igshid=1xwuvvbehip8d" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -160,7 +160,7 @@ export default {
               position: "Steering",
               image: "IMG_20191126_235448.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/ham_mad_hu_?igshid=38jhudd0b7xk" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -180,7 +180,7 @@ export default {
               position: "Brakes",
               image: "IMG_20191130_011434.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/__whateverittakes_?igshid=38uj0roq4jfo" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -191,7 +191,7 @@ export default {
               position: "Brakes",
               image: "IMG_20191130_010441.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/waris______khan?igshid=12n9s65qrt0pd" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
@@ -331,7 +331,7 @@ export default {
               position: "Team Member",
               image: "IMG_20191130_011434.jpg",
               links: [
-                { name: "insta", image: "insta.png", link: "#" },
+                { name: "insta", image: "insta.png", link: "https://instagram.com/__whateverittakes_?igshid=38uj0roq4jfo" },
                 { name: "email", image: "email.png", link: "#" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
