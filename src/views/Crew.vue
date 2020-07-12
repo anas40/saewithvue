@@ -139,7 +139,7 @@ export default {
             image: "insta.png",
             link: "https://instagram.com/sarif_zfr?igshid=l1i3eze28tbo"
           },
-          { name: "email", image: "email.png", link: "#" },
+          { name: "email", image: "email.png", link: "mailto:sarifanwar8266@gmail.com" },
           { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/sarif-anwar" }
         ]
       },
@@ -156,7 +156,7 @@ export default {
                 image: "insta.png",
                 link: "https://instagram.com/sartashtic?igshid=p4v0i9b5oxfx"
               },
-              { name: "email", image: "email.png", link: "#" },
+              { name: "email", image: "email.png", link: "mailto:mohdtashif@zhcet.ac.in" },
               { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohammad-tashif-431697143" }
             ]
           },
@@ -171,7 +171,7 @@ export default {
                   image: "insta.png",
                   link: "https://instagram.com/sarif_zfr?igshid=l1i3eze28tbo"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:sarifanwar8266@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/sarif-anwar" }
               ]
             },
@@ -185,7 +185,7 @@ export default {
                   image: "insta.png",
                   link: "https://instagram.com/_abadrehan?igshid=kynl9e6k5x9v"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:siddiquirehanabad@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/rehan-abad-siddiqui-623868176" }
               ]
             },
@@ -200,7 +200,7 @@ export default {
                   link:
                     "https://instagram.com/invincibleface?igshid=1xwuvvbehip8d"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:kryogesh831@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/yogesh-kumar-433414172" }
               ]
             },
@@ -214,7 +214,7 @@ export default {
                   image: "insta.png",
                   link: "https://instagram.com/ham_mad_hu_?igshid=38jhudd0b7xk"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:hammadqamar3@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/hammad-qamar-96602016b" }
               ]
             },
@@ -239,7 +239,7 @@ export default {
                   link:
                     "https://instagram.com/__whateverittakes_?igshid=38uj0roq4jfo"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:bmdshamsi@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/md-burhan-shamsi-a182b6171" }
               ]
             },
@@ -255,7 +255,7 @@ export default {
                   link:
                     "https://instagram.com/waris______khan?igshid=12n9s65qrt0pd"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:wariskhan1998@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/waris-khan-a40110134/" }
               ]
             }
@@ -273,7 +273,7 @@ export default {
                 image: "insta.png",
                 link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx"
               },
-              { name: "email", image: "email.png", link: "#" },
+              { name: "email", image: "email.png", link: "mailto:qazimdtaha@gmail.com" },
               { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/qazi-t-297392146" }
             ]
           },
@@ -289,7 +289,7 @@ export default {
                   link:
                     "https://instagram.com/mohammed_tazeem?igshid=167to096kjg8u"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:khantazeem12@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohammed-tazeem-34b462189" }
               ]
             },
@@ -303,7 +303,7 @@ export default {
                   image: "insta.png",
                   link: "https://instagram.com/md_aligauhar?igshid=pdig82i4q4ez"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:aligauhar16122000@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
             }
@@ -331,7 +331,7 @@ export default {
                 image: "insta.png",
                 link: "https://instagram.com/aziz.suboor?igshid=u6gbqw4qva5j"
               },
-              { name: "email", image: "email.png", link: "#" },
+              { name: "email", image: "email.png", link: "mailto:aziz.ms52090@gmail.com" },
               { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohd-suboor-18b594171" }
             ]
           },
@@ -346,7 +346,7 @@ export default {
                   image: "insta.png",
                   link: "https://instagram.com/aatif_qazi?igshid=4l70lh37fh7m"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:mohammadaatif99.ma@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
             },
@@ -360,7 +360,7 @@ export default {
                   image: "insta.png",
                   link: "https://instagram.com/swara_ch_?igshid=1vwg120vuqsxf"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:swarnima1710@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/swarnima-chaudhary-54ab87189" }
               ]
             }
@@ -374,7 +374,7 @@ export default {
             image: "IMG_20191125_200423.jpg",
             links: [
               { name: "insta", image: "insta.png", link: "#" },
-              { name: "email", image: "email.png", link: "#" },
+              { name: "email", image: "email.png", link: "mailto:unimohit300@gmail.com" },
               { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/0mngl" }
             ]
           },
@@ -390,7 +390,7 @@ export default {
                   link:
                     "https://instagram.com/hinatomar868?igshid=1szlw7xxvvsrd"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:hinatomar868@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/hinatomar22" }
               ]
             },
@@ -405,7 +405,7 @@ export default {
                   link:
                     "https://instagram.com/kcunalsharma?igshid=1ene441cgnfx8"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:kunalsharma.jaipur1999@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/kunal-sharma-b757021a1" }
               ]
             }
@@ -423,7 +423,7 @@ export default {
                 image: "insta.png",
                 link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx"
               },
-              { name: "email", image: "email.png", link: "#" },
+              { name: "email", image: "email.png", link: "mailto:qazimdtaha@gmail.com" },
               { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/qazi-t-297392146" }
             ]
           },
@@ -439,7 +439,7 @@ export default {
                   link:
                     "https://instagram.com/__whateverittakes_?igshid=38uj0roq4jfo"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:bmdshamsi@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
             },
@@ -453,7 +453,7 @@ export default {
                   image: "insta.png",
                   link: "https://instagram.com/mech_hustle?igshid=1h1fw0zzq35l5"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "maito:shubham.jain.alig@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/shubham-jain-891726144" }
               ]
             },
@@ -468,7 +468,7 @@ export default {
                   link:
                     "https://instagram.com/meesumbilgrami?igshid=p2bx6sq11bcf"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:meesumbilgrami@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/meesum-raza-zaidi-4375ba195" }
               ]
             },
@@ -483,7 +483,7 @@ export default {
                   link:
                     "https://instagram.com/arsalan_sartaj?igshid=jnc8hpmmy9ds"
                 },
-                { name: "email", image: "email.png", link: "#" },
+                { name: "email", image: "email.png", link: "mailto:arsalansartaj99@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/arsalan-sartaj-b1a659191" }
               ]
             }
