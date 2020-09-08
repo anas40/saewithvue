@@ -89,7 +89,8 @@
 
       <!-- developer -->
       <div class="text-center py-3" id="developer">
-        Developed by
+        Established by
+        <br>
         <a href="https://www.linkedin.com/in/anasmohd/" target="_blank"
           >Mohd Anas</a
         >
@@ -99,6 +100,23 @@
           target="_blank"
           >Gauhar Ayub Khan</a
         >
+      </div>
+      
+      <div class="text-center py-3" id="developer">
+        Developed by
+        <br>
+        <a
+          href="https://www.linkedin.com/in/amaan07/"
+          target="_blank"
+          >Mohd Amaan</a
+        >
+        &
+        <a
+          href="https://www.linkedin.com/in/hammad-qamar-96602016b/"
+          target="_blank"
+          >Hammad Qamar</a
+        >
+
       </div>
       <!-- developer -->
     </div>
@@ -117,8 +135,8 @@ export default {
         },
         {
           name: "Phone No.",
-          value: "+917417294492",
-          link: "tel:+917417294492"
+          value: "+918445094080",
+          link: "tel:+918445094080"
         }
       ],
       address: "SAE zhcet,AMU,Aligarh,Uttar Pradesh,India",
