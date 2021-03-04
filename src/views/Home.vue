@@ -2,11 +2,15 @@
   <main>
     <div id="fb-root"></div>
     <div class="bd-example">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
         <ol class="carousel-indicators">
           <li
             data-target="#carouselExampleCaptions"
-            v-for="(image,index) in carouselImage"
+            v-for="(image, index) in carouselImage"
             :key="index"
             :data-slide-to="index - 1"
           ></li>
@@ -19,7 +23,10 @@
             :class="[index === 0 ? 'active' : '']"
           >
             <picture>
-              <source type="image/webp" v-lazy="require(`@/assets/images/carousel/${image}.webp`)" />
+              <source
+                type="image/webp"
+                v-lazy="require(`@/assets/images/carousel/${image}.webp`)"
+              />
               <img
                 class="d-block w-100"
                 :src="require(`@/assets/images/carousel/${image}.jpg`)"
@@ -33,13 +40,8 @@
 
     <section id="main_image">
       <header id="header_text">
-        <p>
-          <span>Z</span>HCET
-        </p>
-        <p>
-          <span>F</span>ormula
-          <span>R</span>acing
-        </p>
+        <p><span>Z</span>HCET</p>
+        <p><span>F</span>ormula <span>R</span>acing</p>
       </header>
     </section>
     <section id="description-zfr">
@@ -171,7 +173,11 @@
       <div id="youtube-box">
         <div @click="Iframe()" id="youtube-player">
           <div v-if="!video" data-id="q6yPVslIujk">
-            <img id="thumbnail" src="https://i.ytimg.com/vi/q6yPVslIujk/hqdefault.jpg" alt="yotube videos' thumbnail"/>
+            <img
+              id="thumbnail"
+              src="https://i.ytimg.com/vi/q6yPVslIujk/hqdefault.jpg"
+              alt="yotube videos' thumbnail"
+            />
             <div class="play"></div>
           </div>
           <iframe
@@ -195,7 +201,10 @@
           <div class="grid-text">
             <div class="icon">
               <figure>
-                <img :src="require(`@/assets/icons/home_icons/${item.icon}`)" alt="icon" />
+                <img
+                  :src="require(`@/assets/icons/home_icons/${item.icon}`)"
+                  alt="icon"
+                />
               </figure>
             </div>
             <header class="heading-text">{{ item.heading }}</header>
@@ -222,7 +231,10 @@
                   type="image/webp"
                   v-lazy="require(`@/assets/images/home_images/${item.webp}`)"
                 />
-                <img :src="require(`@/assets/images/home_images/${item.image}`)" alt="zfr" />
+                <img
+                  :src="require(`@/assets/images/home_images/${item.image}`)"
+                  alt="zfr"
+                />
               </picture>
             </div>
           </div>
@@ -450,7 +462,7 @@ article {
   padding: 12px;
 }
 
-.grid-image .image-container img{
+.grid-image .image-container img {
   height: calc(60vw * (562 / 1000));
   min-height: 200px;
   max-height: 400px;
@@ -539,7 +551,7 @@ article {
   min-height: 200px;
   height: calc(75vw * (562 / 1000));
 }
-#youtube-player>div{
+#youtube-player > div {
   width: 75vw;
   min-width: 280px;
   min-height: 200px;
@@ -549,7 +561,7 @@ article {
   display: block;
   margin: auto;
   position: absolute;
-  top:-17%;
+  top: -17%;
   height: 134%;
   width: 100%;
   border: none;

@@ -87,7 +87,7 @@ th {
   max-width: 350px;
   width: 80%;
 }
-h1{
+h1 {
   text-align: center;
 }
 .name {
@@ -110,14 +110,14 @@ tr {
   display: flex;
   justify-content: space-evenly;
 }
- tr:nth-of-type(odd) {
+tr:nth-of-type(odd) {
   background-color: beige;
 }
 tr th,
 tr td {
   flex-basis: 45%;
 }
-#glory-box{
+#glory-box {
   margin: 50px 0;
 }
 
@@ -125,7 +125,7 @@ tr td {
   h1 {
     font-size: 1.8em;
   }
-  .container{
+  .container {
     padding: 0;
   }
 }
