@@ -40,7 +40,7 @@
 
     <section id="main_image">
       <header id="header_text">
-        <p><span>Z</span>HCET</p>
+        <p><span>ZH</span>CET</p>
         <p><span>F</span>ormula <span>R</span>acing</p>
       </header>
     </section>
