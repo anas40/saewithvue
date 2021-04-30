@@ -337,7 +337,7 @@ export default {
           departmentName: "Power Train",
           lead: {
             name: "Muhammad Aatif Qazi",
-              position: "Vice Captain / Lead",
+              position: "Power Train Lead",
               image: "IMG_20210217_171704atif - SAE ZHCET.jpg",
               links: [
                 {
@@ -472,7 +472,7 @@ export default {
           departmentName: "Management",
           lead: {
             name: "Meesum Raza Zaidi",
-              position: "Team Manager",
+              position: "Management Team Lead",
               image: "= - mSAE ZHCET.jpg",
               links: [
                 {
@@ -488,7 +488,7 @@ export default {
           members: [
             {
               name: "Arsalan Sartaj",
-              position: "Team Member",
+              position: "Business plan",
               image: "arsalan sartaj.jpg",
               links: [
                 {
@@ -503,7 +503,7 @@ export default {
             },
             {
               name: "Shubham Jain",
-              position: "Team Member",
+              position: "Cost Report",
               image: "shubham.jpg",
               links: [
                 {
