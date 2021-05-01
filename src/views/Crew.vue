@@ -384,7 +384,7 @@ export default {
           members: [
             {
               name: "Swarnima Chaudhary",
-              position: "Powertrain team member",
+              position: "Drivetrain",
               image: "IMG_20191125_195909.jpg",
               links: [
                 {
