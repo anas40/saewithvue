@@ -10,13 +10,13 @@
       </div>
 
       <!-- chairperson -->
-      <section class="firsttier" id="top-member">
-        <div>
+      <section class="second-tier" id="top-member">
+        <div v-for="leader in leaders" :key="leader.name">
           <div class="member">
             <div class="member-image">
               <img
                 :src="
-                  require(`@/assets/team images/team-members/${captain.image}`)
+                  require(`@/assets/team images/team-members/${leader.image}`)
                 "
                 alt
               />
@@ -24,12 +24,12 @@
 
             <div>
               <div class="perse-des">
-                <h2>{{ captain.position }}</h2>
-                <h4>{{ captain.name }}</h4>
+                <h2>{{ leader.position }}</h2>
+                <h4>{{ leader.name }}</h4>
               </div>
             </div>
             <div class="linksofmembers">
-              <div v-for="(link, index) in captain.links" :key="index">
+              <div v-for="(link, index) in leader.links" :key="index">
                 <a :href="link.link">
                   <img
                     v-lazy="require(`@/assets/icons/team_icons/${link.image}`)"
@@ -129,7 +129,22 @@
 export default {
   data() {
     return {
-      captain: {
+      leaders: [
+      {
+        name: "Muhammad Aatif Qazi",
+        position: "Vice-Captain",
+        image: "IMG_20210217_171704atif - SAE ZHCET.jpg",
+        links: [
+          {
+            name: "insta",
+            image: "insta.png",
+            link: "https://instagram.com/aatif_qazi?igshid=4l70lh37fh7m"
+          },
+          { name: "email", image: "email.png", link: "mailto:mohammadaatif99.ma@gmail.com" },
+          { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/aatifqazi" }
+        ]
+      },
+      {
         image: "TAZEEM PHOTO - SAE ZHCET (1) (1).jpg",
         position: "Captain",
         name: "Mohammed Tazeem Khan",
@@ -143,6 +158,22 @@ export default {
           { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohammed-tazeem-34b462189" }
         ]
       },
+      { 
+        name: "Meesum Raza Zaidi",
+        position: "Manager",
+        image: "= - mSAE ZHCET.jpg",
+        links: [
+          {
+            name: "insta",
+            image: "insta.png",
+            link:
+              "https://instagram.com/meesumbilgrami?igshid=p2bx6sq11bcf"
+          },
+          { name: "email", image: "email.png", link: "mailto:meesumbilgrami@gmail.com" },
+          { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/meesum-raza-zaidi-4375ba195" }
+        ]
+      }
+      ],
       departments: [
         {
           departmentName: "Vehicle Dynamics",
@@ -334,7 +365,7 @@ export default {
           ]
         },
         {
-          departmentName: "Power Train",
+          departmentName: "Powertrain",
           lead: {
             name: "Muhammad Aatif Qazi",
               position: "Power Train Lead",
@@ -513,6 +544,20 @@ export default {
                 },
                 { name: "email", image: "email.png", link: "maito:shubham.jain.alig@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/shubham-jain-891726144" }
+              ]
+            },
+            {
+              name: "Mohd Amaan",
+              position: "Web Developer",
+              image: "amaan.jpg",
+              links: [
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://www.instagram.com/amaanxalii/"
+                },
+                { name: "email", image: "email.png", link: "maito:aamaan806@gmail.com" },
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/amaan07/" }
               ]
             },
             {
