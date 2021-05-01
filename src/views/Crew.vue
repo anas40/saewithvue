@@ -368,7 +368,7 @@ export default {
           departmentName: "Powertrain",
           lead: {
             name: "Muhammad Aatif Qazi",
-              position: "Power Train Lead",
+              position: "Powertrain Lead",
               image: "IMG_20210217_171704atif - SAE ZHCET.jpg",
               links: [
                 {
