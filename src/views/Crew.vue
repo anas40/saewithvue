@@ -8,7 +8,39 @@
           </div>
         </div>
       </div>
+      
 
+      <section class="firsttier" id="top-member">
+        <div>
+          <div class="member">
+            <div class="member-image">
+              <img
+                :src="
+                  require(`@/assets/team images/team-members/${captain.image}`)
+                "
+                alt
+              />
+            </div>
+
+            <div>
+              <div class="perse-des">
+                <h2>{{ captain.position }}</h2>
+                <h4>{{ captain.name }}</h4>
+              </div>
+            </div>
+            <div class="linksofmembers">
+              <div v-for="(link, index) in captain.links" :key="index">
+                <a :href="link.link">
+                  <img
+                    v-lazy="require(`@/assets/icons/team_icons/${link.image}`)"
+                    :alt="link.name"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- chairperson -->
       <section class="second-tier" id="top-member">
         <div v-for="leader in leaders" :key="leader.name">
@@ -129,6 +161,21 @@
 export default {
   data() {
     return {
+
+      captain: {
+        image: "IMG_20191125_201100.jpg",
+        position: "Captain",
+        name: "Mohammed Tazeem Khan",
+        links: [
+          {
+            name: "insta",
+            image: "insta.png",
+            link: "https://www.instagram.com/mohammed_tazeem/?hl=en"
+          },
+          { name: "email", image: "email.png", link: "mailto:mtkhan@zhcet.ac.in" },
+          { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohammed-tazeem-34b462189" }
+        ]
+      },
       leaders: [
       {
         name: "Muhammad Aatif Qazi",
@@ -142,20 +189,6 @@ export default {
           },
           { name: "email", image: "email.png", link: "mailto:mohammadaatif99.ma@gmail.com" },
           { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/aatifqazi" }
-        ]
-      },
-      {
-        image: "TAZEEM PHOTO - SAE ZHCET (1) (1).jpg",
-        position: "Captain",
-        name: "Mohammed Tazeem Khan",
-        links: [
-          {
-            name: "insta",
-            image: "insta.png",
-            link: "https://www.instagram.com/mohammed_tazeem/?hl=en"
-          },
-          { name: "email", image: "email.png", link: "mailto:mtkhan@zhcet.ac.in" },
-          { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohammed-tazeem-34b462189" }
         ]
       },
       { 
@@ -641,7 +674,6 @@ main > div {
   margin: auto;
   transition: transform 300ms;
 }
-
 .firsttier > div,
 .second-tier > div {
   box-shadow: 0 0 20px 5px rgb(14, 14, 14), inset 0 -1px 0 0 #dadce0;
@@ -662,7 +694,6 @@ main > div {
   border-radius: 70% 30% 50% 50% / 70% 70% 30% 30%;
   box-shadow: 0 0 12px 0px rgb(0, 0, 0);
 }
-
 .second-tier {
   margin: 30px 0;
   display: flex;
@@ -702,7 +733,6 @@ main > div {
 .linksofmembers div:hover {
   border-bottom: 2px solid #330926;
 }
-
 .linksofmembers div a img {
   height: 40px;
   border-radius: 50%;
@@ -750,14 +780,12 @@ main > div {
   margin: auto;
   width: fit-content;
 }
-
 .department-heading-box h1 {
   text-align: center;
 }
 #zfr5 {
   margin-top: 30px;
 }
-
 #zfr5 > div {
   width: 95%;
   background: linear-gradient(45deg, #1f171c, rgb(87, 40, 40), #1f171c);
