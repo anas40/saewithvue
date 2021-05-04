@@ -154,6 +154,47 @@
           </div>
         </section>
       </div>
+
+      <div class="department-heading">
+          <div>
+            <div class="department-heading-box">
+              <h1>Our Former Members</h1>
+            </div>
+          </div>
+        </div>
+        <section class="second-tier">
+          <div v-for="fmember in fmembers" :key="fmember.name">
+            <div class="member">
+              <div class="member-image">
+                <img
+                  v-lazy="
+                    require(`@/assets/team images/team-members/${fmember.image}`)
+                  "
+                  alt
+                />
+              </div>
+
+              <div class="details">
+                <div class="perse-des-small">
+                  <h2>{{ fmember.position }}</h2>
+                  <h4>{{ fmember.name }}</h4>
+                </div>
+                <div class="linksofmembers">
+                  <div v-for="(link, index) in fmember.links" :key="index">
+                    <a :href="link.link">
+                      <img
+                        v-lazy="
+                          require(`@/assets/icons/team_icons/${link.image}`)
+                        "
+                        :alt="link.name"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </div>
   </main>
 </template>
@@ -241,34 +282,20 @@ export default {
               ]
             },
             {
-              name: "Waris Khan",
+              name: "Asjad Ali Khan",
               position: "Brakes",
-              image: "IMG_20191130_010441.jpg",
+              image: "IMG_20200317_192025_596 - Asjad Ali Khan 19MEB436 (1).jpg",
               links: [
                 {
                   name: "insta",
                   image: "insta.png",
                   link:
-                    "https://instagram.com/waris______khan?igshid=12n9s65qrt0pd"
+                    "https://www.instagram.com/asjad_khan_13/"
                 },
-                { name: "email", image: "email.png", link: "mailto:wariskhan1998@gmail.com" },
-                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/waris-khan-a40110134/" }
+                { name: "email", image: "email.png", link: "mailto:asjadkhan1303@gmail.com" },
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/asjad-ali-khan-1877731b3" }
               ]
-            },
-            {
-              name: "Tashif khan",
-              position: "Former Lead",
-              image: "IMG_20191125_201318.jpg",
-              links: [
-                {
-                  name: "insta",
-                  image: "insta.png",
-                  link: "https://instagram.com/sartashtic?igshid=p4v0i9b5oxfx"
-                },
-                { name: "email", image: "email.png", link: "mailto:mohdtashif@zhcet.ac.in" },
-                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohammad-tashif-431697143" }
-              ]
-            },
+            }
             // {
             //   name: "Aftaab Alam",
             //   position: "Suspension",
@@ -279,64 +306,8 @@ export default {
             //     { name: "linkedin", image: "linkedin.png", link: "#" }
             //   ]
             // },
-            {
-              name: "Yogesh Kumar",
-              position: "Former Captain",
-              image: "IMG_20191125_200830.jpg",
-              links: [
-                {
-                  name: "insta",
-                  image: "insta.png",
-                  link:
-                    "https://instagram.com/invincibleface?igshid=1xwuvvbehip8d"
-                },
-                { name: "email", image: "email.png", link: "mailto:kryogesh831@gmail.com" },
-                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/yogesh-kumar-433414172" }
-              ]
-            },
-            {
-              name: "Burhan Shamsi",
-              position: "Former Manager",
-              image: "IMG_20191130_011434.jpg",
-              links: [
-                {
-                  name: "insta",
-                  image: "insta.png",
-                  link:
-                    "https://instagram.com/__whateverittakes_?igshid=38uj0roq4jfo"
-                },
-                { name: "email", image: "email.png", link: "mailto:bmdshamsi@gmail.com" },
-                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/md-burhan-shamsi-a182b6171" }
-              ]
-            },
-            {
-              name: "Rehan Abad Siddiqui",
-              position: "Former Lead",
-              image: "rehan.jpeg",
-              links: [
-                {
-                  name: "insta",
-                  image: "insta.png",
-                  link: "https://instagram.com/_abadrehan?igshid=kynl9e6k5x9v"
-                },
-                { name: "email", image: "email.png", link: "mailto:siddiquirehanabad@gmail.com" },
-                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/rehan-abad-siddiqui-623868176" }
-              ]
-            },
-            {
-              name: "Sarif Anwar",
-              position: "Former Captain",
-              image: "IMG-20191124-WA0025.jpg",
-              links: [
-                {
-                  name: "insta",
-                  image: "insta.png",
-                  link: "https://instagram.com/sarif_zfr?igshid=l1i3eze28tbo"
-                },
-                { name: "email", image: "email.png", link: "mailto:sarifanwar8266@gmail.com" },
-                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/sarif-anwar" }
-              ]
-            }
+            
+            
           ]
         },
         {
@@ -380,21 +351,7 @@ export default {
                  { name: "email", image: "email.png", link: "mailto:ahsiddiquie@zhcet.ac.in" },
                  { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/arquam-hashim-siddiquie-13b6b716b" }
                ]
-             },
-             {
-              name: "Qazi Mohammad Taha",
-            position: "Former Lead",
-            image: "IMG_20191125_201205.jpg",
-            links: [
-              {
-                name: "insta",
-                image: "insta.png",
-                link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx"
-              },
-              { name: "email", image: "email.png", link: "mailto:qazimdtaha@gmail.com" },
-              { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/qazi-t-297392146" }
-            ]
-            }
+             }
           ]
         },
         {
@@ -470,20 +427,6 @@ export default {
                 { name: "email", image: "email.png", link: "mailto:mo.faisal2025@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohammed-faisal-4bb9a6203" }
               ]
-            },
-            {
-              name: "Mohd Suboor Aziz",
-            position: "Former Vice Captain",
-            image: "IMG_20191125_200516.jpg",
-            links: [
-              {
-                name: "insta",
-                image: "insta.png",
-                link: "https://instagram.com/aziz.suboor?igshid=u6gbqw4qva5j"
-              },
-              { name: "email", image: "email.png", link: "mailto:aziz.ms52090@gmail.com" },
-              { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohd-suboor-18b594171" }
-            ]
             }
           ]
         },
@@ -566,20 +509,6 @@ export default {
               ]
             },
             {
-              name: "Shubham Jain",
-              position: "Cost Report",
-              image: "shubham.jpg",
-              links: [
-                {
-                  name: "insta",
-                  image: "insta.png",
-                  link: "https://instagram.com/mech_hustle?igshid=1h1fw0zzq35l5"
-                },
-                { name: "email", image: "email.png", link: "maito:shubham.jain.alig@gmail.com" },
-                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/shubham-jain-891726144" }
-              ]
-            },
-            {
               name: "Mohd Amaan",
               position: "Web Developer",
               image: "amaan.jpg",
@@ -591,35 +520,6 @@ export default {
                 },
                 { name: "email", image: "email.png", link: "maito:aamaan806@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/amaan07/" }
-              ]
-            },
-            {
-              name: "Qazi Mohammad Taha",
-            position: "Former Manager",
-            image: "IMG_20191125_201205.jpg",
-            links: [
-              {
-                name: "insta",
-                image: "insta.png",
-                link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx"
-              },
-              { name: "email", image: "email.png", link: "mailto:qazimdtaha@gmail.com" },
-              { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/qazi-t-297392146" }
-            ]
-            },
-            {
-              name: "Burhan Shamsi",
-              position: "Former Manager",
-              image: "IMG_20191130_011434.jpg",
-              links: [
-                {
-                  name: "insta",
-                  image: "insta.png",
-                  link:
-                    "https://instagram.com/__whateverittakes_?igshid=38uj0roq4jfo"
-                },
-                { name: "email", image: "email.png", link: "mailto:bmdshamsi@gmail.com" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
               ]
             }
             // {
@@ -634,6 +534,137 @@ export default {
             // }
           ]
         }
+      ],
+      fmembers : [
+           {
+              name: "Sarif Anwar",
+              position: "Captain FB2020",
+              image: "IMG-20191124-WA0025.jpg",
+              links: [
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://instagram.com/sarif_zfr?igshid=l1i3eze28tbo"
+                },
+                { name: "email", image: "email.png", link: "mailto:sarifanwar8266@gmail.com" },
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/sarif-anwar" }
+              ]
+            },
+            {
+              name: "Qazi Mohammad Taha",
+            position: "Vice Captian FB2020",
+            image: "IMG_20191125_201205.jpg",
+            links: [
+              {
+                name: "insta",
+                image: "insta.png",
+                link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx"
+              },
+              { name: "email", image: "email.png", link: "mailto:qazimdtaha@gmail.com" },
+              { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/qazi-t-297392146" }
+            ]
+            },
+           {
+              name: "Yogesh Kumar",
+              position: "Captain FB2021",
+              image: "IMG_20191125_200830.jpg",
+              links: [
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/invincibleface?igshid=1xwuvvbehip8d"
+                },
+                { name: "email", image: "email.png", link: "mailto:kryogesh831@gmail.com" },
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/yogesh-kumar-433414172" }
+              ]
+            },
+            {
+              name: "Mohd Suboor Aziz",
+            position: "Vice Captain FB2021",
+            image: "IMG_20191125_200516.jpg",
+            links: [
+              {
+                name: "insta",
+                image: "insta.png",
+                link: "https://instagram.com/aziz.suboor?igshid=u6gbqw4qva5j"
+              },
+              { name: "email", image: "email.png", link: "mailto:aziz.ms52090@gmail.com" },
+              { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohd-suboor-18b594171" }
+            ]
+            },
+            {
+              name: "Burhan Shamsi",
+              position: "Manager FB2021",
+              image: "IMG_20191130_011434.jpg",
+              links: [
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/__whateverittakes_?igshid=38uj0roq4jfo"
+                },
+                { name: "email", image: "email.png", link: "mailto:bmdshamsi@gmail.com" },
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/md-burhan-shamsi-a182b6171" }
+              ]
+            },
+            {
+              name: "Tashif khan",
+              position: "V.D Lead FB2020",
+              image: "IMG_20191125_201318.jpg",
+              links: [
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://instagram.com/sartashtic?igshid=p4v0i9b5oxfx"
+                },
+                { name: "email", image: "email.png", link: "mailto:mohdtashif@zhcet.ac.in" },
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohammad-tashif-431697143" }
+              ]
+            },
+            {
+              name: "Rehan Abad Siddiqui",
+              position: "V.D Lead FB2021",
+              image: "rehan.jpeg",
+              links: [
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://instagram.com/_abadrehan?igshid=kynl9e6k5x9v"
+                },
+                { name: "email", image: "email.png", link: "mailto:siddiquirehanabad@gmail.com" },
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/rehan-abad-siddiqui-623868176" }
+              ]
+            },
+            {
+              name: "Waris Khan",
+              position: "Brakes Lead FB2021",
+              image: "IMG_20191130_010441.jpg",
+              links: [
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/waris______khan?igshid=12n9s65qrt0pd"
+                },
+                { name: "email", image: "email.png", link: "mailto:wariskhan1998@gmail.com" },
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/waris-khan-a40110134/" }
+              ]
+            },
+            {
+              name: "Shubham Jain",
+              position: "Cost Report SUPRA 19",
+              image: "shubham.jpg",
+              links: [
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link: "https://instagram.com/mech_hustle?igshid=1h1fw0zzq35l5"
+                },
+                { name: "email", image: "email.png", link: "maito:shubham.jain.alig@gmail.com" },
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/shubham-jain-891726144" }
+              ]
+            }
       ]
     };
   }
