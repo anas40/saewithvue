@@ -653,7 +653,7 @@ export default {
             },
             {
               name: "Shubham Jain",
-              position: "Cost Report SUPRA 19",
+              position: "Cost Lead SUPRA 19",
               image: "shubham.jpg",
               links: [
                 {
