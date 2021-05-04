@@ -435,7 +435,7 @@ export default {
           lead: {
             name: "Mohit Mangal",
             position: "Electronics Lead",
-            image: "IMG_20191125_200423.jpg",
+            image: "DSC_7319_2.jpg",
             links: [
               { name: "insta", image: "insta.png", link: "#" },
               { name: "email", image: "email.png", link: "mailto:unimohit300@gmail.com" },
@@ -443,21 +443,7 @@ export default {
             ]
           },
           members: [
-            {
-              name: "Hina Tomar",
-              position: "Team Member",
-              image: "IMG_20191125_200003.jpg",
-              links: [
-                {
-                  name: "insta",
-                  image: "insta.png",
-                  link:
-                    "https://instagram.com/hinatomar868?igshid=1szlw7xxvvsrd"
-                },
-                { name: "email", image: "email.png", link: "mailto:hinatomar868@gmail.com" },
-                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/hinatomar22" }
-              ]
-            },
+            
             {
               name: "Kunal Sharma",
               position: "Team Member",
@@ -663,6 +649,21 @@ export default {
                 },
                 { name: "email", image: "email.png", link: "maito:shubham.jain.alig@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/shubham-jain-891726144" }
+              ]
+            },
+            {
+              name: "Hina Tomar",
+              position: "Electronics Member FB2020",
+              image: "IMG_20191125_200003.jpg",
+              links: [
+                {
+                  name: "insta",
+                  image: "insta.png",
+                  link:
+                    "https://instagram.com/hinatomar868?igshid=1szlw7xxvvsrd"
+                },
+                { name: "email", image: "email.png", link: "mailto:hinatomar868@gmail.com" },
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/hinatomar22" }
               ]
             }
       ]
