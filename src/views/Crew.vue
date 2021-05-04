@@ -9,7 +9,7 @@
         </div>
       </div>
       
-
+      <!-- chairperson -->
       <section class="firsttier" id="top-member">
         <div>
           <div class="member">
@@ -41,7 +41,7 @@
           </div>
         </div>
       </section>
-      <!-- chairperson -->
+      <!-- other leaders -->
       <section class="second-tier" id="top-member">
         <div v-for="leader in leaders" :key="leader.name">
           <div class="member">
