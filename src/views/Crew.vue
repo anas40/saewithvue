@@ -507,6 +507,20 @@ export default {
                 { name: "email", image: "email.png", link: "maito:aamaan806@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/amaan07/" }
               ]
+            },
+            {
+              name: "Qazi Mohammad Taha",
+            position: "Cost Report",
+            image: "IMG_20191125_201205.jpg",
+            links: [
+              {
+                name: "insta",
+                image: "insta.png",
+                link: "https://instagram.com/the_qmt?igshid=1rehizz3lyxjx"
+              },
+              { name: "email", image: "email.png", link: "mailto:qazimdtaha@gmail.com" },
+              { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/qazi-t-297392146" }
+            ]
             }
             // {
             //   name: "Vinayak Varshney",
