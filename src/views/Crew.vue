@@ -397,7 +397,7 @@ export default {
                   link: "https://www.instagram.com/salman_ahm_/"
                 },
                 { name: "email", image: "email.png", link: "salmanahmad1920@gmail.com" },
-                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/arquam-hashim-siddiquie-13b6b716b" }
+                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/salman-ahm-" }
               ]
             },
             {
