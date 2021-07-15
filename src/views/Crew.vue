@@ -399,34 +399,6 @@ export default {
                 { name: "email", image: "email.png", link: "salmanahmad1920@gmail.com" },
                 { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/salman-ahm-" }
               ]
-            },
-            {
-              name: "Mohammed Afzal",
-              position: "Exhaust",
-              image: "afzal.jpg",
-              links: [
-                {
-                  name: "insta",
-                  image: "insta.png",
-                  link: "https://www.instagram.com/afzal_a.z/"
-                },
-                { name: "email", image: "email.png", link: "mailto:myandroid2025@gmail.com" },
-                { name: "linkedin", image: "linkedin.png", link: "#" }
-              ]
-            },
-            {
-              name: "Mohammed faisal",
-              position: "Exhaust",
-              image: "Mohammed Faisal .jpg",
-              links: [
-                {
-                  name: "insta",
-                  image: "insta.png",
-                  link: "https://www.instagram.com/mo_faisal.98/"
-                },
-                { name: "email", image: "email.png", link: "mailto:mo.faisal2025@gmail.com" },
-                { name: "linkedin", image: "linkedin.png", link: "https://www.linkedin.com/in/mohammed-faisal-4bb9a6203" }
-              ]
             }
           ]
         },
