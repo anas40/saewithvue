@@ -103,7 +103,7 @@
       </div>
       
       <div class="text-center py-3" id="developer">
-        Developed by
+        Developers
         <br>
         <a
           href="https://www.linkedin.com/in/amaan07/"
