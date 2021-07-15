@@ -34,6 +34,32 @@
               {{ item.name }}
             </router-link>
           </li>
+          <!-- new menu added -->
+          <li class="nav-item dropdown" id="more">
+            <div
+              class="nav-link dropdown-toggle"
+              :to="{ name: 'image_gallery' }"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <img
+                src="../assets/icons/nav_icons/more.svg"
+                class="nav-icons"
+              />
+              <span>m</span>ore
+            </div>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <router-link class="dropdown-item" :to="{ name: 'image_gallery' }"
+                >image_gallery</router-link
+              >
+              <!-- <router-link class="dropdown-item" :to="{ name: 'Sponsors' }"
+                >Our Sponsors</router-link
+              > -->
+            </div>
+          </li>
+
 
           <li class="nav-item dropdown" id="donation">
             <div

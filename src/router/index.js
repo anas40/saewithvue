@@ -68,6 +68,13 @@ const routes = [
     }
   },
   {
+    path: "/image_gallery",
+    name: "image_gallery",
+    component() {
+      return import(/* webpackChunkName: "crew" */ "../views/image_gallery.vue");
+    }
+  },
+  {
     path: "/404",
     alias: "*",
     name: "NotFound",
