@@ -1,15 +1,15 @@
 <template>
   <main>
     <header>
-      <!-- <h1 class="title">{{ event.name }}</h1> -->
+      <h1 class="title">{{ event.name }}</h1>
       <div class="title-description">
-        <!-- <p>
+        <p>
           {{event.description}}
-        </p> -->
+        </p>
       </div>
     </header>
     <section>
-      <!-- <div class="gallery">
+      <div class="gallery">
         <div
           class="img-container"
           v-for="(value, index) in event.images"
@@ -23,7 +23,7 @@
             :alt="index"
           />
         </div>
-      </div> -->
+      </div>
     </section>
   </main>
 </template>
