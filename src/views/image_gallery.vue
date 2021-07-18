@@ -41,25 +41,25 @@ export default {
         {
           image: "_KEV7642.jpg",
           // link: "cars/zfr-4.1",
-          name: "FormulaBharat2020",
+          name: "Formula Bharat 2020",
           id: 2,
         },
         {
           image: "IMG_20190717_164232.jpg",
           // link: "cars/zfr-4.1",
-          name: "Supra 19",
+          name: "SUPRA SAE INDIA 2019",
           id: 3,
         },
         {
           image: "_DSC0508.jpg",
           // link: "cars/zfr-4.1",
-          name: "UK 16",
+          name: "Formula Student United Kingdom 2016",
           id: 4,
         },
         {
           image: "3691969.jpg",
           // link: "cars/zfr-4.1",
-          name: "UK-18",
+          name: "Formula Student United Kingdom 2018",
           id: 5,
         }
       ],
