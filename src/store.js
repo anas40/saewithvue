@@ -691,5 +691,150 @@ export default {
         }
       ]
     }
+  ],
+  events: [
+    {
+      name: "Auto Expo 2018",
+      description:"Auto Expo is automotive show held in Greater Noida , Uttar Pradesh India. It’s Asia’s largest and world’s second largest motor show. It is organized group of following associations : Automotive Component Manufacturers Association(ACMA), Confederation of Indian Industry (CII) and Society of Indian Automobile Manufacturers (SIAM).",
+      images: [
+        {
+          name: "DSC_2842.jpg"
+        },
+        {
+          name: "DSC_3013.jpg"
+        },
+        {
+          name: "DSC_3459.jpg"
+        },
+        {
+          name: "excellentDisplay.jpg"
+        },
+        {
+          name: "Formula1_forceIndiaF1.jpg"
+        },
+        {
+          name: "fromParliament.jpg"
+        },
+        {
+          name: "DSC_2842.jpg"
+        },
+        {
+          name: "KrantiSirNDTVRaftar.jpg"
+        },
+        {
+          name: "NDTVPrime.jpg"
+        },
+        {
+          name: "NDTVPrime1.jpg"
+        },
+        {
+          name: "NDTVRaftarInter.jpg"
+        },
+        {
+          name: "OpenSi.jpg"
+        },
+        {
+          name: "PrincipalSirVisi.jpg"
+        },
+        {
+          name: "sponsor.jpg"
+        },
+        {
+          name: "ZFR3_1.jpg"
+        }
+      ]
+
+    },
+    {
+      name: "Formula Bharat 2020",
+      description:"Formula Bharat is an Indian Formula Student-style engineering design competition in which students from colleges and universities all over the country, compete with a life-size formula-style vehicle in areas of engineering design, overall cost, marketability and dynamic performance. The series replicates the global student Formula series hosted in around 11 countries per year.",
+      images: [
+        {
+          name: "_KEV7642.jpg"
+        },
+        {
+          name: "DSC_0006.NEF.jpg"
+        },
+        {
+          name: "DSC_0282.NEF.jpg"
+        },
+        {
+          name: "DSC_0322.NEF.jpg"
+        },
+        {
+          name: "DSC_0341.NEF.jpg"
+        },
+        {
+          name: "DSC_0688.NEF.jpg"
+        },
+        {
+          name: "DSC_0738.NEF.jpg"
+        },
+      ]
+
+    },
+    {
+      name: "SUPRA SAE INIDIA 2019",
+      description: "SUPRA SAEIndia is an exciting competition which presents undergraduate engineering students with a challenging task of designing, simulating and modelling a formula type car. Each team is required to design and fabricate a prototype of the racecar in accordance with the strict rules and guidelines provided to them. The car is supposed to perform in a dynamic event on a live race track",
+      images: [
+        {
+          name: "IMG_20190717_164232.jpg"
+        },
+        {
+          name: "IMG-3391.jpg"
+        },
+        {
+          name: "IMG20190716094112.jpg"
+        },
+        {
+          name: "IMG20190716151835.jpg"
+        },
+        {
+          name: "IMG20190716185900.jpg"
+        },
+        {
+          name: "IMG20190716191611.jpg"
+        },
+        {
+          name: "IMG20190717154722.jpg"
+        },
+      ]
+
+    },
+    {
+      name: "Formula Student United Kingdom 2016",
+      description: "Formula Student is a student engineering competition held annually in the UK. Student teams from around the world design, build, test, and race a small-scale formula style racing car. The cars are judged on a number of criteria as listed below. It is run by the Institution of Mechanical Engineers and uses the same rules as the original Formula SAE with supplementary regulations.",
+      images: [
+        {
+          name: "_DSC0508.jpg"
+        },
+        {
+          name: "DSC_1595jpg.jpg"
+        },
+        {
+          name: "IMG_20160714_151820_HDR.jpg"
+        },
+        {
+          name: "IMG_20160717_153910_HDR .jpg"
+        },
+      ]
+
+    },
+    {
+      name: "Formula Student United Kingdom 2018",
+      description: "Formula Student is a student engineering competition held annually in the UK. Student teams from around the world design, build, test, and race a small-scale formula style racing car. The cars are judged on a number of criteria as listed below. It is run by the Institution of Mechanical Engineers and uses the same rules as the original Formula SAE with supplementary regulations.",
+      images: [
+        {
+          name: "a.jpg"
+        },
+        {
+          name: "IMG_20180712_204326.jpg"
+        },
+        {
+          name: "IMG_20180714_163920.jpg"
+        },
+      ]
+
+    }
   ]
 };
