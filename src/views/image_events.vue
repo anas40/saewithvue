@@ -4,7 +4,7 @@
       <h1 class="title">{{ event.name }}</h1>
       <div class="title-description">
         <p>
-          {{event.description}}
+          {{ event.description }}
         </p>
       </div>
     </header>
@@ -57,8 +57,8 @@ export default {
   margin-top: 2em;
   text-align: center;
 }
-.title-description{
-    padding: 1em;
+.title-description {
+  padding: 1em;
 }
 .img-container {
   margin-top: 1em;
@@ -70,7 +70,7 @@ export default {
 }
 .imagg {
   width: 100%;
-  height:455px;
+  height: 455px;
   object-fit: cover;
 }
 .gallery {
@@ -86,10 +86,10 @@ export default {
     justify-content: space-evenly;
   }
   .img-container {
-    margin-top: 1em;
     width: 48%;
-    border: 2px solid black;
-    border-radius: 9px;
   }
+  .img-container{
+  margin-bottom: 1em;
+}
 }
 </style>

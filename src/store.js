@@ -802,7 +802,7 @@ export default {
 
     },
     {
-      name: "Formula Student United Kingdom 2016",
+      name: "Formula Student UK16",
       description: "Formula Student is a student engineering competition held annually in the UK. Student teams from around the world design, build, test, and race a small-scale formula style racing car. The cars are judged on a number of criteria as listed below. It is run by the Institution of Mechanical Engineers and uses the same rules as the original Formula SAE with supplementary regulations.",
       images: [
         {
@@ -821,7 +821,7 @@ export default {
 
     },
     {
-      name: "Formula Student United Kingdom 2018",
+      name: "Formula Student UK18",
       description: "Formula Student is a student engineering competition held annually in the UK. Student teams from around the world design, build, test, and race a small-scale formula style racing car. The cars are judged on a number of criteria as listed below. It is run by the Institution of Mechanical Engineers and uses the same rules as the original Formula SAE with supplementary regulations.",
       images: [
         {
