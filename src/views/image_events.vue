@@ -43,11 +43,9 @@ export default {
   },
   created() {
     let eventName = this.eventName;
-    console.log(eventName);
     this.event = store.events.find(function (event) {
       return event.name === eventName;
     });
-    console.log(this.event.images);
   },
 };
 </script>

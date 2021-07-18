@@ -774,7 +774,7 @@ export default {
 
     },
     {
-      name: "SUPRA SAE INIDIA 2019",
+      name: "SUPRA SAE INDIA 2019",
       description: "SUPRA SAEIndia is an exciting competition which presents undergraduate engineering students with a challenging task of designing, simulating and modelling a formula type car. Each team is required to design and fabricate a prototype of the racecar in accordance with the strict rules and guidelines provided to them. The car is supposed to perform in a dynamic event on a live race track",
       images: [
         {
@@ -825,7 +825,7 @@ export default {
       description: "Formula Student is a student engineering competition held annually in the UK. Student teams from around the world design, build, test, and race a small-scale formula style racing car. The cars are judged on a number of criteria as listed below. It is run by the Institution of Mechanical Engineers and uses the same rules as the original Formula SAE with supplementary regulations.",
       images: [
         {
-          name: "a.jpg"
+          name: "ab.jpg"
         },
         {
           name: "IMG_20180712_204326.jpg"
