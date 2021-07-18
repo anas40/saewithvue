@@ -1,16 +1,26 @@
 <template>
   <main>
     <header>
-      <h1 class="title">our image gallery</h1>
+      <h1 class="title">Image Gallery</h1>
     </header>
     <section>
       <div class="gallery">
         <div class="img-container" v-for="event in events" :key="event.id">
-          <img
+          <h1 class="img-container-title">{{event.name}}</h1>
+          <router-link
+                :to="{ name: 'image_events', params: { eventName: event.name } }"
+              >
+                <img
             class="imagg"
             v-lazy="require(`@/assets/images/image_gallery/${event.image}`)"
             :alt="event.id"
           />
+              </router-link>
+          <!-- <img
+            class="imagg"
+            v-lazy="require(`@/assets/images/image_gallery/${event.image}`)"
+            :alt="event.id"
+          /> -->
         </div>
       </div>
     </section>
@@ -23,47 +33,35 @@ export default {
     return {
       events: [
         {
-          image: "_KEV7642.jpg",
+          image: "DSC_2842.jpg",
           // link: "cars/zfr-4.1",
-          // name: "ZFR 4.1",
+          name:"Auto Expo 2018",
           id: 1,
         },
         {
-          image: "DSC_0006.NEF.jpg",
+          image: "_KEV7642.jpg",
           // link: "cars/zfr-4.1",
-          // name: "ZFR 4.1",
+          name: "FormulaBharat2020",
           id: 2,
         },
         {
-          image: "DSC_0282.NEF.jpg",
+          image: "IMG_20190717_164232.jpg",
           // link: "cars/zfr-4.1",
-          // name: "ZFR 4.1",
+          name: "Supra 19",
           id: 3,
         },
         {
-          image: "DSC_0322.NEF.jpg",
+          image: "_DSC0508.jpg",
           // link: "cars/zfr-4.1",
-          // name: "ZFR 4.1",
+          name: "UK 16",
           id: 4,
         },
         {
-          image: "DSC_0341.NEF.jpg",
+          image: "3691969.jpg",
           // link: "cars/zfr-4.1",
-          // name: "ZFR 4.1",
+          name: "UK-18",
           id: 5,
-        },
-        {
-          image: "DSC_0688.NEF.jpg",
-          // link: "cars/zfr-4.1",
-          // name: "ZFR 4.1",
-          id: 6,
-        },
-        {
-          image: "DSC_0738.NEF.jpg",
-          // link: "cars/zfr-4.1",
-          // name: "ZFR 4.1",
-          id: 7,
-        },
+        }
       ],
     };
   },
@@ -73,7 +71,8 @@ export default {
 <style>
 .title {
   text-transform: capitalize;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
   margin-top: 2em;
   text-align: center;
 }
@@ -87,11 +86,19 @@ export default {
 }
 .imagg {
   width: 100%;
+  object-fit: cover;
 }
 .gallery {
   flex-direction: column;
   display: flex;
   justify-content: space-evenly;
+}
+.img-container-title{
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:black;
+    margin-bottom: 0px;
 }
 @media screen and (min-width: 991px) {
   .gallery {

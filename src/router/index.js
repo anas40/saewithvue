@@ -75,6 +75,25 @@ const routes = [
     }
   },
   {
+    path: "/Events/:eventName",
+    name: "image_events",
+    component() {
+      return import(
+        /* webpackChunkName: "carsModel" */ "../views/image_events.vue");
+    },
+    props: true,
+    beforeEnter: (to, from, next) => {
+      const exist = store.events.find(event => to.params.eventName === event.name);
+      if (exist) {
+        next();
+      } else {
+        next({
+          name: "NotFound"
+        });
+      }
+    }
+  },
+  {
     path: "/404",
     alias: "*",
     name: "NotFound",
