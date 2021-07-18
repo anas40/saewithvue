@@ -746,7 +746,7 @@ export default {
 
     },
     {
-      name: "FormulaBharat2020",
+      name: "Formula Bharat 2020",
       description:"Formula Bharat is an Indian Formula Student-style engineering design competition in which students from colleges and universities all over the country, compete with a life-size formula-style vehicle in areas of engineering design, overall cost, marketability and dynamic performance. The series replicates the global student Formula series hosted in around 11 countries per year.",
       images: [
         {
@@ -774,7 +774,7 @@ export default {
 
     },
     {
-      name: "Supra 19",
+      name: "SUPRA SAE INIDIA 2019",
       description: "SUPRA SAEIndia is an exciting competition which presents undergraduate engineering students with a challenging task of designing, simulating and modelling a formula type car. Each team is required to design and fabricate a prototype of the racecar in accordance with the strict rules and guidelines provided to them. The car is supposed to perform in a dynamic event on a live race track",
       images: [
         {
@@ -802,7 +802,7 @@ export default {
 
     },
     {
-      name: "UK 16",
+      name: "Formula Student United Kingdom 2016",
       description: "Formula Student is a student engineering competition held annually in the UK. Student teams from around the world design, build, test, and race a small-scale formula style racing car. The cars are judged on a number of criteria as listed below. It is run by the Institution of Mechanical Engineers and uses the same rules as the original Formula SAE with supplementary regulations.",
       images: [
         {
@@ -821,7 +821,7 @@ export default {
 
     },
     {
-      name: "UK-18",
+      name: "Formula Student United Kingdom 2018",
       description: "Formula Student is a student engineering competition held annually in the UK. Student teams from around the world design, build, test, and race a small-scale formula style racing car. The cars are judged on a number of criteria as listed below. It is run by the Institution of Mechanical Engineers and uses the same rules as the original Formula SAE with supplementary regulations.",
       images: [
         {
