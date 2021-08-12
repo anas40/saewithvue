@@ -53,13 +53,13 @@ export default {
         {
           image: "_DSC0508.jpg",
           // link: "cars/zfr-4.1",
-          name: "Formula Student United Kingdom 2016",
+          name: "Formula Student UK16",
           id: 4,
         },
         {
-          image: "3691969.jpg",
+          image: "ab.jpg",
           // link: "cars/zfr-4.1",
-          name: "Formula Student United Kingdom 2018",
+          name: "Formula Student UK18",
           id: 5,
         }
       ],
@@ -86,6 +86,7 @@ export default {
 }
 .imagg {
   width: 100%;
+   height: 455px;
   object-fit: cover;
 }
 .gallery {
@@ -108,10 +109,10 @@ export default {
     justify-content: space-evenly;
   }
   .img-container {
-    margin-top: 1em;
     width: 48%;
-    border: 2px solid black;
-    border-radius: 9px;
   }
+  .img-container {
+  margin-bottom: 1em;
+}
 }
 </style>
