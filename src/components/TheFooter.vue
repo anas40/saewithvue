@@ -130,8 +130,8 @@ export default {
       contactDetails: [
         {
           name: "Email",
-          value: "zhcetformularacing@gmail.com",
-          link: "mailto:zhcetformularacing@gmail.com"
+          value: "sae@zhcet.ac.in",
+          link: "mailto:sae@zhcet.ac.in"
         },
         {
           name: "Phone No.",
@@ -139,7 +139,7 @@ export default {
           link: "tel:+918445094080"
         }
       ],
-      address: "SAE zhcet,AMU,Aligarh,Uttar Pradesh,India",
+      address: "Research & Development center, SAE ZHCET, Mechanical Engineering department,Aligarh Muslim University",
       cars: [
         {
           name: "ZFR 5.0"
